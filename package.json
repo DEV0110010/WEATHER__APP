@@ -10,12 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "1. Created a new project directory and navigate into it.\r 2. Initialized a new node.js project.\r 3. Installed the required packages (ejs, express, nodemon, dotenv, axios)\r 4. Project Structure\r    weather-app/\r    |----public/\r    |    |_____style.css # For styling\r    |----views/\r    |    |____index.ejs # For the form and weather display\r    |     |____error.ejs # For error display\r    |----.env # Environment variables file\r    |----app.js # Main application file\r    |----README.md #Instructions file\r 5. SetUPed Environment Variables\r 6. SetUped Express Server in app.js\r 7. Created the EJS Views\r 8. Created index.ejs and error.ejs\r 9. Created Style.css\r 10. Project WEATHER_APP is Created",
   "dependencies": {
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
     "nodemon": "^3.1.7"
-  }
+  },
+  "devDependencies": {}
 }
