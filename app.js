@@ -18,12 +18,12 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
 // Home route with form to enter city name
-app.get('/', (req, res) => {
+app.get('/weather', (req, res) => {
     res.render('index', { weather: null, error: null });
 });
 
 // Handle form submission
-app.post('/', async (req, res) => {
+app.post('/weather', async (req, res) => {
     const city = req.body.city;
     const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${encodeURIComponent(city)}&appid=${API_KEY}`;
 
