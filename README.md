@@ -1,2 +1,2 @@
 # WEATHER_APP
- Tells About weather of selected city
+ Tells About Weather of Selected City
