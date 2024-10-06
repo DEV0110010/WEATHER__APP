@@ -37,7 +37,7 @@ app.post('/weather', async (req, res) => {
             description: weather.weather[0].description,
             humidity: weather.main.humidity,
             windSpeed: weather.wind.speed,
-            icon: `http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
+            icon: `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
         };
         res.render('index', { weather: weatherData, error: null });
     
