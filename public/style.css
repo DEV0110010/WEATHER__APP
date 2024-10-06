@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Honk&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: sans-serif;
     text-align: center;
@@ -64,13 +67,20 @@ img {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 6em;
     margin: 10px 0;
     font-weight: bolder;
+    margin-top: -16px;
 }
 p {
     margin: 10px 0;
     font-size: 2em;
     color: #0e0e0e;
     font-weight: 800;
+}
+a{
+    text-decoration: none;
+    font-size: 3em;
+    color: #03045e;
+    font-weight: bold;
 }
