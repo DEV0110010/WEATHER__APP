@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+input[type="text"]{
+    padding: 10px; 
+    font-size: 1em;
+}
+button{
+    padding: 10px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+img{
+    margin-top: 20px;
+}
