@@ -9,7 +9,7 @@ body {
     background-image: url("pexels-jplenio-1118873.jpg");
     background-size: cover;
     font-family: 'Aref Ruqaa Ink';
-    color: #333333;
+    color: #020217;
 }
 
 
@@ -64,6 +64,7 @@ h2 {
 
 img {
     margin-top: -10px;
+    filter:  brightness(83%) contrast(169%) hue-rotate(0deg) saturate(63%) sepia(39%);
 }
 
 h1 {
@@ -75,12 +76,16 @@ h1 {
 p {
     margin: 10px 0;
     font-size: 2em;
-    color: #0e0e0e;
+    color: #01011e;
     font-weight: 800;
 }
 a{
     text-decoration: none;
-    font-size: 3em;
+    font-size: 4em;
     color: #03045e;
-    font-weight: bold;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.error{
+    font-size: 3em;
 }
