@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# WEATHER_APP
+ Tells About Weather of Selected City
+ 
+>>>>>>> 0ba9ca48d528435a9587f63c91f4c1ccee1cd24c
 # Weather APP
 
 ## Setup Instructions
@@ -19,4 +25,8 @@
 7. Created the EJS Views
 8. Created index.ejs and error.ejs
 9. Created Style.css
+<<<<<<< HEAD
 10. Project WEATHER_APP is Created
+=======
+10. Project WEATHER_APP is Created
+>>>>>>> 0ba9ca48d528435a9587f63c91f4c1ccee1cd24c
