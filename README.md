@@ -1,5 +1,5 @@
 # Weather APP
-
+# Tells Weather of Selected City
 ## Setup Instructions
 1. Created a new project directory and navigate into it.
 2. Initialized a new node.js project.
