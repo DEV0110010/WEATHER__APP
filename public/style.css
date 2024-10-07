@@ -5,7 +5,7 @@
 }
 body {
     text-align: center;
-    background-image: url("pexels-jplenio-1118873.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     font-family: 'Aref Ruqaa Ink';
     color: #020217;
@@ -63,7 +63,7 @@ h2 {
 
 img {
     margin-top: -10px;
-    filter:  brightness(83%) contrast(169%) hue-rotate(0deg) saturate(63%) sepia(39%);
+    /* filter:  brightness(83%) contrast(169%) hue-rotate(0deg) saturate(63%) sepia(39%); */
 }
 
 h1 {
